@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>The Hotspots Cafes</title>
+</head>
+
+<body>
+ <h1>Find your spot</h1>
+ <h2>Browse the Cafes Notts has to offer</h2>
+
+ <h2>Wonderful Workstation</h2>
+  <ul>
+    <li>Wired</li>
+    <li>200°</li>
+    <li>Sobar</li>
+    <li>Blend</li>
+  </ul>
+
+ <h2>Student Savers</h2>
+  <ul>
+    <li>Bird & Blend</li>
+    <li>Sobar</li>
+    <li>Wired</li>
+    <li>200°</li>
+  </ul>
+
+ <h2>Date Days</h2>
+  <ul>
+    <li>Fox Cafe</li>
+    <li>The Specialty Coffee</li>
+    <li>Cartwheel</li>
+    <li>Pudding Pantry</li>
+  </ul>
+
+ <h2>Casual Coffee</h2>
+  <ul>
+    <li>Cartwheel</li>
+    <li>Blend</li>
+    <li>Outpost</li>
+  </ul>
+
+ <h2>Tasty Tea</h2>
+  <ul>
+    <li>Bird & Blend</li>
+    <li>Thea</li>
+    <li>White Rabbit</li>
+  </ul>
+
+</body>
+</html>
