@@ -1,0 +1,29 @@
+
+h1 {
+  font-family: courier, monospace;
+  padding-bottom: 0px;
+  line-height: 20%;
+  font-size: 8em;
+  text-align: center;
+}
+
+#tagline {
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  line-height: 100%;
+}
+
+div.headspace {
+  background-color: rgb(55,255,255)
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  text-align: space-evenly;
+  justify-content: space-evenly;
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+}
