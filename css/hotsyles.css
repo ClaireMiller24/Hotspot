@@ -1,6 +1,6 @@
 
 h1 {
-  font-family: courier, monospace;
+  font-family: 'Satisfy', cursive;
   padding-bottom: 0px;
   line-height: 20%;
   font-size: 8em;
@@ -21,9 +21,20 @@ div.headspace {
 .menu {
   display: flex;
   list-style: none;
-  text-align: space-evenly;
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+  color: white;
   justify-content: space-evenly;
-  font-family: monospace;
-  font-size: 1.5em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Thasadith', sans-serif;
+}
+
+h2{
+  font-family: 'Thasadith', sans-serif;
   font-weight: bold;
 }
