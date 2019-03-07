@@ -2,11 +2,18 @@
 h1 {
   font-family: 'Satisfy', cursive;
   padding-bottom: 0px;
+  padding-top: 10px;
   margin-top: 0px;
+  margin: 0px;
   font-size: 8em;
+  color: black;
   text-align: center;
 }
 
+body {
+  background-image: url("../images/cup.jpg");
+  background-size: cover;
+}
 #tagline {
   text-align: center;
   font-family: sans-serif;
