@@ -1,7 +1,7 @@
 /* Fonts */
 h1 {
   font-family: 'Satisfy', cursive;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   padding-top: 10px;
   margin-top: 0px;
   margin: 0px;
@@ -53,4 +53,13 @@ div.headspace {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 25px;
   font-weight: bold;
+}
+
+div.container {
+  background: rgba(255,255,255,0.6)
+}
+
+/* Images */
+.fox-cafe {
+  float: right;
 }
