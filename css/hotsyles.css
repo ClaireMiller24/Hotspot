@@ -1,24 +1,40 @@
-
+/* Fonts */
 h1 {
   font-family: 'Satisfy', cursive;
   padding-bottom: 0px;
   padding-top: 10px;
   margin-top: 0px;
   margin: 0px;
-  font-size: 8em;
+  font-size: 5em;
   color: black;
   text-align: center;
-}
-
-body {
-  background-image: url("../images/cup.jpg");
-  background-size: cover;
-}
+  }
+h2{
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+  }
+p{
+  font-family: 'Thasadith', sans-serif;
+  }
 #tagline {
   text-align: center;
   font-family: sans-serif;
   font-style: italic;
   line-height: 100%;
+  }
+
+/* background images */
+body{
+  background-image: url("../images/cup.jpg");
+  background-size: cover;
+  }
+div.blog-background {
+  background-image: url("../images/sunglass.jpg");
+  background-size: cover;
+}
+div.cafe-background {
+  background-image: url("../images/Cafe.jpg");
+  background-size: cover;
 }
 
 div.headspace {
@@ -26,6 +42,7 @@ div.headspace {
   padding-top: 0px;
 }
 
+/* Menu */
 .menu {
   display: flex;
   list-style: none;
@@ -35,14 +52,5 @@ div.headspace {
   justify-content: space-evenly;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 25px;
-  font-weight: bold;
-}
-
-p{
-  font-family: 'Thasadith', sans-serif;
-}
-
-h2{
-  font-family: 'Thasadith', sans-serif;
   font-weight: bold;
 }
