@@ -13,6 +13,7 @@ h2{
     font-family: 'Satisfy', sans-serif;
     font-weight: bold;
     padding-top: 20px;
+    padding-left: 20px;
   }
 p{
   font-family: 'Thasadith', sans-serif;
@@ -63,6 +64,9 @@ div.headspace {
 
 div.container {
   background: rgba(255,255,255,0.6)
+}
+
+div.containergrid {
 }
 
 /* Images */
