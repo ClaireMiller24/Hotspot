@@ -14,6 +14,7 @@ h2{
     font-weight: bold;
     padding-top: 20px;
     padding-left: 20px;
+    margin-bottom: 20px;
   }
 p{
   font-family: 'Thasadith', sans-serif;
@@ -43,6 +44,8 @@ div.headspace {
   text-align: center;
   padding-top: 0px;
   background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Menu */
@@ -69,20 +72,7 @@ div.container {
 div.containergrid {
 }
 
-/* Images */
-.fox-cafe {
-  float: right;
-}
-.twohun {
-  float:right;
-}
-.cartwheel {
-  float:right;
-}
-.outpost {
-  float: right;
-}
-.stewarts {
-  float: right;
+#discoverbutton {
+  margin-bottom: 20px;
 
-}
+/* Images */
