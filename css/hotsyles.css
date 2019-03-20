@@ -21,10 +21,12 @@ p.padded{
   margin-left: 50px;
   margin-right: 50px;
   display: block;
+  line-height: 30px;
   font-family: 'Thasadith', sans-serif;
   }
 p {
   font-family: 'Thasadith', sans-serif;
+  line-height: 30px;
 }
 .tagline {
   text-align: center;
