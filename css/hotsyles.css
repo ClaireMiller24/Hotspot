@@ -12,45 +12,25 @@ h1 {
 h2{
     font-family: 'Satisfy', sans-serif;
     font-weight: bold;
+    font-size: 3em;
     padding-top: 20px;
     padding-left: 20px;
     margin-bottom: 20px;
   }
-p{
+p.blog-words{
   margin-left: 50px;
   margin-right: 50px;
   display: block;
   font-family: 'Thasadith', sans-serif;
   }
+p {
+  font-family: 'Thasadith', sans-serif;
+}
 .tagline {
   text-align: center;
   font-family: 'Thasadith', sans-serif;
   font-size: 1.3em;
   }
-
-/* background images */
-body{
-  background-image: url("../images/cup.jpg");
-  background-size: contain;
-  background-attachment: fixed;
-  }
-div.blog-background {
-  background-image: url("../images/sunglass.jpg");
-  background-size: cover;
-}
-div.cafe-background {
-  background-image: url("../images/Cafe.jpg");
-  background-size: cover;
-}
-
-div.headspace {
-  text-align: center;
-  padding-top: 0px;
-  background-color: transparent;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-}
 
 /* Menu */
 .menu {
@@ -67,20 +47,25 @@ div.headspace {
   font-weight: bold;
   padding-bottom: 0px;
 }
-
+/* Misc Format */
 div.container {
   background: rgba(255,255,255,0.6);
   padding-left: 0px;
   padding-right: 0px;
 }
-
+div.headspace {
+  text-align: center;
+  padding-top: 0px;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
 div.containergrid {
 }
-
 #discoverbutton {
   margin-bottom: 20px;
 }
-
 div.centered {
   text-align: center;
 }
@@ -91,4 +76,18 @@ img.floatright{
 }
 img.floatleft{
   float: left;
+}
+  /* background*/
+body{
+  background-image: url("../images/cup.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  }
+div.blog-background {
+  background-image: url("../images/sunglass.jpg");
+  background-size: cover;
+}
+div.cafe-background {
+  background-image: url("../images/Cafe.jpg");
+  background-size: cover;
 }
