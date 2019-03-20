@@ -16,8 +16,10 @@ h2{
     padding-left: 20px;
     margin-bottom: 20px;
   }
+
 p{
   font-family: 'Thasadith', sans-serif;
+  padding: 15px;
   }
 
 #tagline {
@@ -29,7 +31,8 @@ p{
 /* background images */
 body{
   background-image: url("../images/cup.jpg");
-  background-size: cover;
+  background-size: contain;
+  background-attachment: fixed;
   }
 div.blog-background {
   background-image: url("../images/sunglass.jpg");
@@ -46,12 +49,12 @@ div.headspace {
   background-color: transparent;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 /* Menu */
 .menu {
   display: flex;
-  width: 1110px;
   align-items: center;
   align-self: center;
   list-style: none;
@@ -66,7 +69,9 @@ div.headspace {
 }
 
 div.container {
-  background: rgba(255,255,255,0.6)
+  background: rgba(255,255,255,0.6);
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 div.containergrid {
@@ -74,5 +79,10 @@ div.containergrid {
 
 #discoverbutton {
   margin-bottom: 20px;
+}
+
+div.centered {
+  text-align: center;
+}
 
 /* Images */
