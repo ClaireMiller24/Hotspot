@@ -62,7 +62,13 @@ div.headspace {
   width: 100%;
 }
 div.containergrid {
+  padding: 20px;
 }
+
+div.col-sm-4 {
+  padding-bottom: 30px;
+}
+
 #discoverbutton {
   margin-bottom: 20px;
 }
