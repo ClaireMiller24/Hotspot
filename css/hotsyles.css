@@ -17,6 +17,10 @@ h2{
     padding-left: 20px;
     margin-bottom: 20px;
   }
+
+.card-text {
+    line-height: normal;
+  }
 p.padded{
   margin-left: 50px;
   margin-right: 50px;
@@ -28,6 +32,7 @@ p {
   font-family: 'Thasadith', sans-serif;
   line-height: 30px;
 }
+
 .tagline {
   text-align: center;
   font-family: 'Thasadith', sans-serif;
@@ -64,12 +69,16 @@ div.headspace {
   width: 100%;
 }
 div.containergrid {
+  padding: 20px;
 }
 #discoverbutton {
   margin-bottom: 20px;
 }
 div.centered {
   text-align: center;
+}
+.col-sm-4 {
+  padding-bottom: 30px;
 }
 
 .form {
@@ -92,9 +101,11 @@ body{
   }
 div.blog-background {
   background-image: url("../images/sunglass.jpg");
-  background-size: cover;
+  background-size: contain;
+  background-attachment: fixed;
 }
 div.cafe-background {
   background-image: url("../images/Cafe.jpg");
-  background-size: cover;
+  background-size: contain;
+  background-attachment: fixed;
 }
