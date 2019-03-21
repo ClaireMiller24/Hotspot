@@ -1,8 +1,8 @@
 /* Type */
 h1 {
   font-family: 'Satisfy', cursive;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   margin-top: 0px;
   margin: 0px;
   font-size: 5em;
@@ -17,7 +17,6 @@ h2{
     padding-left: 20px;
     margin-bottom: 20px;
   }
-
 .card-text {
     line-height: normal;
   }
@@ -54,11 +53,13 @@ p {
   font-weight: bold;
   padding-bottom: 0px;
 }
+
 /* Misc Format */
 div.container {
   background: rgba(255,255,255,0.6);
   padding-left: 0px;
   padding-right: 0px;
+  padding-bottom: 10px;
 }
 div.headspace {
   display: block;
@@ -68,7 +69,6 @@ div.headspace {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 div.containergrid {
   padding: 20px;
 }
@@ -81,10 +81,44 @@ div.centered {
 .col-sm-4 {
   padding-bottom: 30px;
 }
-
 .form {
   padding:20px;
 }
+
+/*Social Media*/
+.fa {
+  margin-left: 20px;
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #517fa4;
+    color: white;
+  }
+  .fa-pinterest {
+    background: #bd081c;
+    color: white;
+  }
+  .fa-flickr{
+    background: #ff0084;
+    color: white;
+  }
+
 /* Images */
 img.floatright{
   float: right;
@@ -107,9 +141,18 @@ div.blog-background {
   background-image: url("../images/sunglass.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 div.cafe-background {
   background-image: url("../images/Cafe.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+  /* Gallery */
+.thumbs {
+    display: flex;
+    justify-content:space-between;
+    height: 300px;
+    padding: 20px;
 }
