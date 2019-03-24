@@ -41,8 +41,8 @@ p {
 /* Menu */
 .menu {
   display: flex;
-  align-items: center;
-  align-self: center;
+  max-width: 100%;
+  max-height: auto;
   list-style: none;
   text-align: center;
   background: rgba(0,0,0,0.7);
@@ -63,14 +63,23 @@ div.container {
 }
 div.headspace {
   display: block;
-  text-align: center;
+  position: inherit;
+  max-width: 600px;
+  max-height: auto;
   padding-top: 0px;
   background-color: transparent;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
 div.containergrid {
-  padding: 20px;
+padding: 20px;
 }
 #discoverbutton {
   margin-bottom: 20px;
