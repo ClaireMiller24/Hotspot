@@ -11,6 +11,7 @@ h1 {
   }
 
 h2{
+    display: inline-flex;
     font-family: 'Satisfy', sans-serif;
     font-weight: bold;
     font-size: 3em;
@@ -71,11 +72,6 @@ div.centered {
 }
 
 /* Hotspots Logo */
-.img-responsive {
-  display: block;
-  width: 100%;
-}
-
 div.headspace {
   display: flex;
   max-width: 600px;
@@ -84,6 +80,14 @@ div.headspace {
   background-color: transparent;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.img-responsive {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
 
 /* Carousel */
@@ -178,7 +182,6 @@ div.blog-background {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 div.cafe-background {
   background-image: url("../images/Cafe.jpg");
   background-size: cover;
@@ -220,4 +223,14 @@ div.cafe-background {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+/*Zoom hover*/
+.zoom {
+  transition: transform .4s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
