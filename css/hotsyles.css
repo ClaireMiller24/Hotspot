@@ -30,14 +30,9 @@ p.padded{
   margin-right: 50px;
   display: block;
   line-height: 30px;
+  font-size: 3vh;
   font-family: 'Thasadith', sans-serif;
   }
-
-p {
-  font-family: 'Thasadith', sans-serif;
-  line-height: 30px;
-  font-size: 2.3vh;
-}
 
 .tagline {
   text-align: center;
@@ -119,6 +114,7 @@ div.headspace {
 .fa {
   margin-left: 20px;
   padding: 20px;
+  margin-top: 20px;
   font-size: 30px;
   width: 60px;
   text-align: center;
