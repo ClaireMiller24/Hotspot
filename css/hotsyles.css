@@ -5,7 +5,7 @@ h1 {
   padding-top: 15px;
   margin-top: 0px;
   margin: 0px;
-  font-size: 5em;
+  font-size: 12vmin;
   color: black;
   text-align: center;
   }
@@ -24,6 +24,10 @@ h2{
     line-height: normal;
   }
 
+a {
+  color: brown;
+}
+
 p.padded{
   margin-left: 50px;
   margin-right: 50px;
@@ -35,26 +39,27 @@ p.padded{
 p {
   font-family: 'Thasadith', sans-serif;
   line-height: 30px;
+  font-size: 2.3vh;
 }
 
 .tagline {
   text-align: center;
   font-family: 'Thasadith', sans-serif;
-  font-size: 1.3em;
+  font-size: 3vh;
   }
 
 /* Menu */
 .menu {
   display: flex;
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   list-style: none;
   text-align: center;
   background: rgba(0,0,0,0.7);
   color: white;
   justify-content: space-evenly;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 25px;
+  font-size: 4vmin;
   font-weight: bold;
   padding-bottom: 0px;
 }
@@ -74,8 +79,8 @@ div.centered {
 /* Hotspots Logo */
 div.headspace {
   display: flex;
+  text-align:center;
   max-width: 600px;
-  max-height: auto;
   padding-top: 0px;
   background-color: transparent;
   margin-top: 10px;
@@ -87,7 +92,6 @@ div.headspace {
   justify-content: center;
   width: 100%;
   height: auto;
-  text-align: center;
 }
 
 /* Carousel */
@@ -146,7 +150,7 @@ div.headspace {
 
   /* Cafe page layout */
   div.containergrid {
-  display: flex;
+  display: inline-flex;
   padding: 20px;
   flex-direction: column;
   justify-content: center;
@@ -155,6 +159,20 @@ div.headspace {
 
   .col-sm-4 {
     padding-bottom: 30px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .col-sm-4 {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    .col-sm-4 {
+      flex: 100%;
+      max-width: 100%;
+    }
   }
 
 /* Images */
