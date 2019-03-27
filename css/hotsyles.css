@@ -191,14 +191,14 @@ body{
   background-repeat: no-repeat;
   }
 
-div.blog-background {
+body.blog-background {
   background-image: url("../images/sunglass.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
-div.cafe-background {
+body.cafe-background {
   background-image: url("../images/Cafe.jpg");
   background-size: cover;
   background-attachment: fixed;
