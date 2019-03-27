@@ -75,9 +75,7 @@ div.centered {
 
 /* Hotspots Logo */
 div.headspace {
-  display: flex;
   text-align:center;
-  max-width: 600px;
   padding-top: 0px;
   background-color: transparent;
   margin-top: 10px;
@@ -85,9 +83,11 @@ div.headspace {
 }
 
 .img-responsive {
-  display: flex;
-  justify-content: center;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
   width: 100%;
+  max-width: 600px;
   height: auto;
 }
 
